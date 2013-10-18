@@ -1,6 +1,10 @@
 api = 2
 core = 7.x
 
+; Contributed modules.
+projects[autosave][type] = "module"
+projects[autosave][subdir] = "contrib"
+projects[autosave][version] = "2.2"
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.3"
